@@ -13,3 +13,7 @@ Update-PHP
 ![image5!](img/image5.png)
 ![image6!](img/image6.png)
 ![image7!](img/image7.png)
+
+Delete-PHP
+![image8!](img/image8.png)
+![image9!](img/image9.png)
