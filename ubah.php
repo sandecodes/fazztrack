@@ -21,7 +21,7 @@
             <tr>
                 <td>Nama Produk</td>
                 <td>
-                    <input type="text" name="nama_produk" value="<?= $product['nama_produk']; ?>">
+                    <input type="text" name="nama_produk" value="<?= $product["nama_produk"]; ?>">
                 </td>
             </tr>
             <tr>

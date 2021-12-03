@@ -3,10 +3,10 @@ require 'connection/connection.php';
 
 if (isset($_POST['ubah'])) {
     $id = $_POST['id'];
-    $nama_produk = $_POST['nama_produk'];
-    $keterangan = $_POST['keterangan'];
-    $harga = $_POST['harga'];
-    $jumlah = $_POST['jumlah'];
+    $nama_produk = addslashes($_POST['nama_produk']);
+    $keterangan = addslashes($_POST['keterangan']);
+    $harga = addslashes($_POST['harga']);
+    $jumlah = addslashes($_POST['jumlah']);
 
     $update = mysqli_query($conn, "UPDATE produk SET nama_produk = '$nama_produk', keterangan = '$keterangan', harga = '$harga', jumlah = '$jumlah' WHERE id = '$id'");
 
